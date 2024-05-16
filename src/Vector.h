@@ -89,6 +89,7 @@ class Vector {
                 delete[] m_elements;
             }
             m_elements = newElements;
+            m_capacity = capacity;
         }
     }
 
